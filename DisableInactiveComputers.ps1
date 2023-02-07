@@ -1,5 +1,5 @@
 
-$Logfile = "$env:windir\Temp\Logs\MS365ModuleInstall.log"
+$Logfile = "$env:windir\Temp\Logs\DisableInactiveComputers.log"
 Function LogWrite{
    Param ([string]$logstring)
    Add-content $Logfile -value $logstring
